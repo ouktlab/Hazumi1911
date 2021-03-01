@@ -51,7 +51,7 @@ Shun Katada, Shogo Okada, Yuki Hirano, and Kazunori Komatani. 2020. Is She Truly
 ```
 
 ### フォルダの構造とファイル：
-dumpfiles      
+dumpfiles/      
 |---------	1911F2001.csv  
 |---------	1911F2002.csv  
 :  
