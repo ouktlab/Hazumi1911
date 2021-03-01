@@ -105,7 +105,7 @@ landmark特徴量はOpenfaceから得られる2次元座標データ(30fps)を�
 動作特徴量. Durationは発話時間
 Kinectの3次元間座標データ(30fps)をもとに頭部, 肩などの部位のフレーム間速度, 加速度を求め, exchange区間ごとに最大値, 最小値, 平均値を特徴量とする. 
 
-#### EDA_mean, EDA_std，HR_mean	HR_std:
+#### EDA_mean, EDA_std，HR_mean，HR_std:
 生体特徴量. 
 実験参加者の手首にE4 wristbandを装着し，皮膚電位（μSiemens）を測定した．皮膚電位と心拍の平均値および標準偏差を特徴量とする．
 
