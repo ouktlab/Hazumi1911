@@ -26,6 +26,8 @@ https://www.nii.ac.jp/dsc/idr/rdata/Hazumi/documents/HazumiOverview.pdf
 
 elan/ 以下に，(実験参加者ID).eaf という名前で置かれている．実験参加者ID
 は以下で示すYYMMGAANNの9文字である．  
+　記号 | 説明
+ ------------ | -------------
 　YYMM	| コーパスのバージョン．ここでは1911である．  
 　G | 実験参加者の性別．M（男性）もしくはF（女性）．  
 　AA | 実験参加者の年代．20から70まで．  
