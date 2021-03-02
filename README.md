@@ -26,14 +26,14 @@ https://www.nii.ac.jp/dsc/idr/rdata/Hazumi/documents/HazumiOverview.pdf
 
 elan/ 以下に，(実験参加者ID).eaf という名前で置かれている．実験参加者ID
 は以下で示すYYMMGAANNの9文字である．  
-　YYMM	コーパスのバージョン．ここでは1911である．  
-　G	実験参加者の性別．M（男性）もしくはF（女性）．  
-　AA	実験参加者の年代．20から70まで．  
-　NN	上記7文字と合わせてIDとなるように付番．  
+　YYMM	| コーパスのバージョン．ここでは1911である．  
+　G | 実験参加者の性別．M（男性）もしくはF（女性）．  
+　AA | 実験参加者の年代．20から70まで．  
+　NN | 上記7文字と合わせてIDとなるように付番．  
 例えば1911F2001は「Hazumi1911の，20歳代のある女性のデータ」を意味する．
 
 交換と呼ばれる単位ごとに，以下で示されるデータが付与されている．
-詳しくはNII IDRサイトにある概要説明ドキュメントを参照のこと．
+詳しくは[概要説明ドキュメント](https://www.nii.ac.jp/dsc/idr/rdata/Hazumi/documents/HazumiOverview.pdf)を参照のこと．
 
 #### 実験参加者の発話の書き起こし
 #### システム発話とその対話行為
@@ -117,7 +117,7 @@ Kinectのデータ記録時間とビデオカメラのデータ記録時間に�
 言語特徴量（素性）は発話区間に対応するユーザ発話の書き起こしテキストから抽出した．
 生体信号データの各csvファイルにはUnix時間が記載されており，この時刻はKinectの時刻に対応している．
 上記の手順で，音声・言語・画像の情報の時間同期を行った．  
-詳しくはNII IDRサイトにある概要説明ドキュメントを参照のこと．
+詳しくは[概要説明ドキュメント](https://www.nii.ac.jp/dsc/idr/rdata/Hazumi/documents/HazumiOverview.pdf)を参照のこと．
 
 ## 5. アンケートデータ
 実験参加者とWizardの双方に対して，実験開始前と実験終了後の両方に実施した
@@ -132,7 +132,7 @@ Wizard（実験前），Wizard（実験後）の4つのタブがある．この�
 て，実験参加者は18項目，Wizardは簡略化した3項目に対して，8段階で回答した
 結果が記録されている．これに加え，「記述式」「性格特性」という2つのタブが
 Hazumi1911では追加されている．
-詳しくはNII IDRサイトにある概要説明ドキュメントを参照のこと．
+詳しくは[概要説明ドキュメント](https://www.nii.ac.jp/dsc/idr/rdata/Hazumi/documents/HazumiOverview.pdf)を参照のこと．
 
 ## 6. 生体信号データ
 Empatica社製のE4 wristbandを用いて取得した対話中の実験参加者の生体信号データである．
@@ -156,7 +156,7 @@ biosensor/
 　├ TEMP.csv  皮膚温度データ  
 　└ ACC.csv  加速度データ  
   
-  詳しくはNII IDRサイトにある概要説明ドキュメントを参照のこと．
+詳しくは[概要説明ドキュメント](https://www.nii.ac.jp/dsc/idr/rdata/Hazumi/documents/HazumiOverview.pdf)を参照のこと．
 
 # Authors
 * 駒谷 和範（大阪大学 産業科学研究所） komatani@sanken.osaka-u.ac.jp
