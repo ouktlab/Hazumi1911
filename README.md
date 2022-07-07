@@ -36,11 +36,11 @@ elan/ 以下に，(実験参加者ID).eaf という名前で置かれている�
 例えば1911F2001は「Hazumi1911の，20歳代のある女性のデータ」を意味する．
 
 交換と呼ばれる単位ごとに，以下で示されるデータが付与されている．
-詳しくは[概要説明ドキュメント](https://www.nii.ac.jp/dsc/idr/rdata/Hazumi/documents/HazumiOverviewInPerson.pdf)を参照のこと．
 
 #### 実験参加者の発話の書き起こし
 #### システム発話とその対話行為
-.eafファイルには11種類の対話行為ラベルが付与されているが，1-hot化されているのは従来から用いられている8種類のみである．
+.eafファイルには11種類の対話行為ラベルが付与されている．ただし実験用ダンプファイルにおいて1-hot化されているのは，Hazumi1902と同様の8種類のみである．
+詳しくは[概要説明ドキュメント](https://www.nii.ac.jp/dsc/idr/rdata/Hazumi/documents/HazumiOverviewInPerson.pdf)を参照のこと．
 
 #### 心象アノテーション
 複数の第三者が付与したもの (TS: Third Sentiment) と，実験参加者本人が付与したもの（振り返りアノテーション） (SS: Self Sentiment) がある．
