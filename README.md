@@ -17,7 +17,7 @@ Hazumi1911では以下のファイル群を公開している．
 （国立情報学研究所 情報学研究データリポジトリ）から配布される．
 データの入手方法や概要説明ドキュメントは，NII IDRサイトを参照のこと．  
 https://www.nii.ac.jp/dsc/idr/rdata/Hazumi/  
-https://www.nii.ac.jp/dsc/idr/rdata/Hazumi/documents/HazumiOverview.pdf
+https://www.nii.ac.jp/dsc/idr/rdata/Hazumi/documents/HazumiOverviewInPerson.pdf
 
 ## 3. 閲覧用ELANファイル
 アノテーションや書き起こしを全て含んだeaf（ELAN annotation fomat）ファイ
@@ -36,10 +36,12 @@ elan/ 以下に，(実験参加者ID).eaf という名前で置かれている�
 例えば1911F2001は「Hazumi1911の，20歳代のある女性のデータ」を意味する．
 
 交換と呼ばれる単位ごとに，以下で示されるデータが付与されている．
-詳しくは[概要説明ドキュメント](https://www.nii.ac.jp/dsc/idr/rdata/Hazumi/documents/HazumiOverview.pdf)を参照のこと．
+詳しくは[概要説明ドキュメント](https://www.nii.ac.jp/dsc/idr/rdata/Hazumi/documents/HazumiOverviewInPerson.pdf)を参照のこと．
 
 #### 実験参加者の発話の書き起こし
 #### システム発話とその対話行為
+.eafファイルには11種類の対話行為ラベルが付与されているが，1-hot化されているのは従来から用いられている8種類のみである．
+
 #### 心象アノテーション
 複数の第三者が付与したもの (TS: Third Sentiment) と，実験参加者本人が付与したもの（振り返りアノテーション） (SS: Self Sentiment) がある．
 #### 話題継続アノテーション
@@ -120,7 +122,7 @@ Kinectのデータ記録時間とビデオカメラのデータ記録時間に�
 言語特徴量（素性）は発話区間に対応するユーザ発話の書き起こしテキストから抽出した．
 生体信号データの各csvファイルにはUnix時間が記載されており，この時刻はKinectの時刻に対応している．
 上記の手順で，音声・言語・画像の情報の時間同期を行った．  
-詳しくは[概要説明ドキュメント](https://www.nii.ac.jp/dsc/idr/rdata/Hazumi/documents/HazumiOverview.pdf)を参照のこと．
+詳しくは[概要説明ドキュメント](https://www.nii.ac.jp/dsc/idr/rdata/Hazumi/documents/HazumiOverviewInPerson.pdf)を参照のこと．
 
 ## 5. アンケートデータ
 実験参加者とWizardの双方に対して，実験開始前と実験終了後の両方に実施した
@@ -135,7 +137,7 @@ Wizard（実験前），Wizard（実験後）の4つのタブがある．この�
 て，実験参加者は18項目，Wizardは簡略化した3項目に対して，8段階で回答した
 結果が記録されている．これに加え，「記述式」「性格特性」という2つのタブが
 Hazumi1911では追加されている．
-詳しくは[概要説明ドキュメント](https://www.nii.ac.jp/dsc/idr/rdata/Hazumi/documents/HazumiOverview.pdf)を参照のこと．
+詳しくは[概要説明ドキュメント](https://www.nii.ac.jp/dsc/idr/rdata/Hazumi/documents/HazumiOverviewInPerson.pdf)を参照のこと．
 
 ## 6. 生体信号データ
 Empatica社製のE4 wristbandを用いて取得した対話中の実験参加者の生体信号データである．
@@ -159,7 +161,7 @@ biosensor/
 　├ TEMP.csv  皮膚温度データ  
 　└ ACC.csv  加速度データ  
   
-詳しくは[概要説明ドキュメント](https://www.nii.ac.jp/dsc/idr/rdata/Hazumi/documents/HazumiOverview.pdf)を参照のこと．
+詳しくは[概要説明ドキュメント](https://www.nii.ac.jp/dsc/idr/rdata/Hazumi/documents/HazumiOverviewInPerson.pdf)を参照のこと．
 
 # Authors
 * 駒谷 和範（大阪大学 産業科学研究所） komatani@sanken.osaka-u.ac.jp
