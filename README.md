@@ -130,8 +130,8 @@ Kinectのデータ記録時間とビデオカメラのデータ記録時間に�
 questionnaire/  
 　├ 1911questionnaire-items.pdf　本人とWizardによるアンケートで使用した質問紙  
 　├ 1911questionnaire.xlsx　本人とWizardによるアンケート結果  
-　├ 1911questionnaire-3rdparty-rapport.xlsx　第3者アノテータ5名が付与したラポール18項目
-　├ 1911questionnaire-3rdparty-personality.xlsx　第3者アノテータ5名が付与した性格特性
+　├ 1911questionnaire-3rdparty-rapport.xlsx　第3者アノテータ5名が付与したラポール18項目  
+　├ 1911questionnaire-3rdparty-personality.xlsx　第3者アノテータ5名が付与した性格特性  
 　├ questionnaire-items-3rdparty-rapport.pdf　第3者アノテーションでのラポール18項目の質問紙  
 　└ questionnaire-items-3rdparty-personality.pdf　第3者アノテーションの性格特性の質問紙  
 
