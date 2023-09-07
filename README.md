@@ -125,19 +125,27 @@ Kinectのデータ記録時間とビデオカメラのデータ記録時間に�
 詳しくは[概要説明ドキュメント](https://www.nii.ac.jp/dsc/idr/rdata/Hazumi/documents/HazumiOverviewInPerson.pdf)を参照のこと．
 
 ## 5. アンケートデータ
-実験参加者とWizardの双方に対して，実験開始前と実験終了後の両方に実施した
-アンケートに関するデータである．
+実験開始前と実験終了後の両方に実施したアンケートに関するデータである．
 
 questionnaire/  
-　├ 1911questionnaire-items.pdf　使用した質問紙  
-　└ 1911questionnaire.xlsx　アンケート結果  
+　├ 1911questionnaire-items.pdf　本人とWizardによるアンケートで使用した質問紙  
+　├ 1911questionnaire.xlsx　本人とWizardによるアンケート結果  
+　├ 1911questionnaire-3rdparty-rapport.xlsx　第3者アノテータ5名が付与したラポール18項目
+　├ 1911questionnaire-3rdparty-personality.xlsx　第3者アノテータ5名が付与した性格特性
+　├ questionnaire-items-3rdparty-rapport.pdf　第3者アノテーションでのラポール18項目の質問紙  
+　└ questionnaire-items-3rdparty-personality.pdf　第3者アノテーションの性格特性の質問紙  
 
-アンケート結果ファイルには，まずHazumi1902と同様に，実験参加者（実験前），実験参加者（実験後），
+本人とWizardによるアンケート結果ファイルには，まずHazumi1902と同様に，実験参加者（実験前），実験参加者（実験後），
 Wizard（実験前），Wizard（実験後）の4つのタブがある．このそれぞれにおい
 て，実験参加者は18項目，Wizardは簡略化した3項目に対して，8段階で回答した
 結果が記録されている．これに加え，「記述式」「性格特性」という2つのタブが
 Hazumi1911では追加されている．
 詳しくは[概要説明ドキュメント](https://www.nii.ac.jp/dsc/idr/rdata/Hazumi/documents/HazumiOverviewInPerson.pdf)を参照のこと．
+
+さらに2023年9月に，第3者アノテータ5名が，それぞれビデオを見て事後的に
+付与したアンケート結果（ラポール18項目，性格特性）ファイルを追加した．
+それぞれのアノテーションで用いた質問紙とともに置いている．
+
 
 ## 6. 生体信号データ
 Empatica社製のE4 wristbandを用いて取得した対話中の実験参加者の生体信号データである．
